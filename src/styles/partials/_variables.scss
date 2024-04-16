@@ -1,0 +1,57 @@
+// Media Queries
+
+$tablet-breakpoint: 48rem;
+$desktop-breakpoint: 80rem;
+
+// Colors //
+
+// Primary Colors //
+$primary-color-black: #202020;
+$primary-color-white: #ffffff;
+$primary-color-violet: #ba1bd8;
+$primary-color-denimBlue: #71b9f8;
+
+// Global Text Color //
+
+$primary-text-color: $primary-color-black;
+
+// Global White Color //
+
+$global-white: $primary-color-white;
+
+// Global Black Color //
+
+$global-black: $primary-color-black;
+
+// table column header background,
+
+$table-coloumn-header-background-color: mix(
+  $primary-color-violet,
+  $primary-color-violet,
+  50%
+);
+
+//interactive column //
+
+$interactive-element-color: $table-coloumn-header-background-color;
+
+// Secondary Colors //
+
+$secondary-color-gray: #a1a1a1;
+$secondary-color-light-gray: #e8e8e8;
+
+// Page Background Colors //
+$background-color-page-white: $primary-color-white;
+$background-color-page-black: $primary-color-black;
+
+// Outlines,
+// Dividers,
+// Borders,
+
+$outline-color: $secondary-color-light-gray;
+$dividers-color: $secondary-color-light-gray;
+$borders-colors: $secondary-color-light-gray;
+
+// CTA Background Color //
+
+$cta-background-color: $table-coloumn-header-background-color;

@@ -1,0 +1,67 @@
+@use "./variables" as *;
+@use "./media-queries" as *;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.6rem;
+  @include tablet {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  @include tablet {
+    font-size: 3rem;
+    line-height: 0.75rem;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  @include tablet {
+    font-size: 3rem;
+    line-height: 0.75rem;
+  }
+}
+
+.p1 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 0.75rem;
+  @include tablet {
+    font-size: 1rem;
+    line-height: 0.65rem;
+  }
+}
+
+.p2 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 0.75rem;
+  @include tablet {
+    font-size: 1rem;
+    line-height: 0.65rem;
+  }
+}
+
+.p3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 0.75rem;
+  @include tablet {
+    font-size: 1rem;
+    line-height: 0.65rem;
+  }
+}

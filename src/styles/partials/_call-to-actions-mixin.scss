@@ -1,0 +1,25 @@
+@use "./variables" as *;
+@use "./typography" as *;
+@use "./media-queries" as *;
+
+@mixin cta-button {
+  font-family: inherit;
+  top: 32.125rem;
+  left: 27.75rem;
+  width: 11.25rem;
+  height: 2.8125rem;
+
+  background: transparent
+    linear-gradient(
+      163deg,
+      var(--unnamed-color-ba1bd8) 0%,
+      #8195f1 77%,
+      #71b9f8 100%
+    )
+    0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(163deg, #ba1bd8 0%, #8195f1 77%, #71b9f8 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 0.3125rem;
+  opacity: 1;
+}

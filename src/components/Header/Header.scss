@@ -1,0 +1,27 @@
+.header {
+  background: transparent
+    linear-gradient(174deg, var(--unnamed-color-ba1bd8) 0%, #71b9f8 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(174deg, #ba1bd8 0%, #71b9f8 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  justify-content: space-between;
+
+  &__nav {
+    display: flex;
+
+    &-dev {
+      margin-right: auto;
+    }
+
+    &-list {
+      display: flex;
+      list-style-type: none;
+      margin-left: auto;
+    }
+
+    &-item {
+      margin-right: 0.625rem;
+    }
+  }
+}
